@@ -1,0 +1,23 @@
+# Arquivos de sistema e caches
+.DS_Store
+Thumbs.db
+.cache
+
+# Módulos do Node.js
+node_modules/
+
+# Arquivos de build
+dist/
+build/
+out/
+*.min.js
+
+# Arquivos de configuração
+.env
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependendo do seu ambiente de desenvolvimento, você pode precisar adicionar outras entradas ao .gitignore.
+# Por exemplo, se você estiver usando um IDE específico, pode querer adicionar seus arquivos de configuração aqui.
