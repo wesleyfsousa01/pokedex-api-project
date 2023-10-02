@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+
+    <link rel="stylesheet" href="assets/css/pokemonProperties.css">
+
+    <script defer src="assets/js/pokemon-properties.js"></script>
+</head>
+<body>
+    <Section>
+        <div class="content">
+
+            <div class="menu">
+                <span class="arrow_back"><a href=""><img src="assets/img/seta-esquerda.png" alt=""></a>
+                </span>
+                
+                <span
+                    class="heart"
+                >
+                    <a href=""></a><img src="assets/img/contorno-em-forma-de-coracao.png" alt=""><a href=""></a>
+                </span>
+            </div>
+
+            <form class="form">
+                <input
+                    type="search"
+                    class="input_search"
+                    placeholder="Nome ou Numero"
+                    required          
+                    />
+
+                <div class="controls">
+                    <button type="button" class="back"><img src="assets/img/proximo.png" alt=""></button>    
+                    <button type="button" class="next"><img src="assets/img/proximo.png" alt=""></button>
+                </div>    
+ 
+            </form>
+            <div class="pokemon">
+    
+                <span class="name"></span>
+                <span class="number"></span>
+            
+                    <div class="detail">
+                        <ol class="types">
+
+                        </ol>
+        
+                        <img 
+                            class="pokemon_img"
+                            src=""
+                            alt="${pokemon.name}">
+                    </div>
+
+                    <div class="pokemon_properties">
+                        <table 
+                            class="tb_info"
+                            cellspacing="10"
+                        >
+                            <tr align="left">
+                                <th>
+                                    About
+                                    <hr color="blue" align="left">
+                                </th>
+                            </tr>
+
+                            <tr >
+                                <td>
+                                    Species
+                                </td>
+                                <td id="species">
+                                    Seed
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Height
+                                </td>
+                                <td id="height">
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    Weight
+                                </td>
+                                <td id="weight">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Abilities
+                                </td>
+                                <td id="abilities">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+        </div>
+
+        <script src="/assets/js/pokemon-model.js"></script>
+        <script src="assets/js/poke-api.js"></script>
+        <script src="assets/js/main.js"></script>
+    </Section>
+    
+</body>
+</html>
